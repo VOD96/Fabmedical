@@ -15,8 +15,8 @@ on:
 env:
   imageRepository: 'content-api'
   resourceGroupName: 'fabmedical-[DeploymentID]'
-  containerRegistryName: 'acr[DeploymentID]'
-  containerRegistry: 'acr[DeploymentID].azurecr.io'
+  containerRegistryName: 'acr318694'
+  containerRegistry: 'acr318694.azurecr.io'
   dockerfilePath: './content-api'
   tag: '${{ github.run_id  }}'
 
